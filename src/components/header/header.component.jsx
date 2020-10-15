@@ -11,7 +11,7 @@ const Header =({currentUser}) => (
         </Link>
         <div className="options">
             <Link className='options' to='/shop'>SHOP</Link>
-            <Link className='options' to='/shop'>CONTACT</Link>
+            <Link className='options' to='https://murmuring-mesa-21077.herokuapp.com/contact'>CONTACT</Link>
             {
                 currentUser ?(
                 <div className='options' onClick={()=>auth.signOut()}>SIGN OUT</div>
